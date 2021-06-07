@@ -3,7 +3,7 @@
 #  For more details, please refer to https://aka.ms/azure-ml-component-specs
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: prophet_prep
-version: 0.0.1
+version: 0.0.2
 display_name: Prophet-Prep
 type: CommandComponent
 is_deterministic: false
@@ -24,7 +24,7 @@ inputs:
 outputs:
   Prepared_Data:
     description: Prepared dataset
-    type: AnyDirectory
+    type: DataFrameDirectory
 command: >-
   python prophet_prep.py --Loaded_Data {inputs.Loaded_Data} --Timeseries {inputs.Timeseries} --Forecast {inputs.Forecast}
   --Prepared_Data {outputs.Prepared_Data}

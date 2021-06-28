@@ -2,8 +2,8 @@
 #  For more details, please refer to https://aka.ms/azure-ml-component-specs
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: lgbm-r-evaluate
-version: 0.0.11
-display_name: LGBM-R-Evaluate
+version: 0.0.1
+display_name: lgbm-r-evaluate
 type: CommandComponent
 is_deterministic: false
 tags:

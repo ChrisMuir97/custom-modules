@@ -2,8 +2,8 @@
 #  For more details, please refer to https://aka.ms/azure-ml-component-specs
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: lgbm-r-train
-version: 0.0.13
-display_name: LGBM-R-Train
+version: 0.0.1
+display_name: lgbm-r-train
 type: CommandComponent
 is_deterministic: false
 tags:

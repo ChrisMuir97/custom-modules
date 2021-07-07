@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from azureml.studio.core.io.data_frame_directory import load_data_frame_from_directory, save_data_frame_to_directory
 
 ## Parse args
-parser = argparse.ArgumentParser("Prophet-Prep")
+parser = argparse.ArgumentParser("prophet_prep")
 parser.add_argument("--Loaded_Data", type=str, help="Loaded dataset")
 parser.add_argument("--Timeseries", type=str, help="Timeseries column.")
 parser.add_argument("--Forecast", type=str, help="Forecast column")

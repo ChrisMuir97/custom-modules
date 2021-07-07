@@ -11,7 +11,7 @@ from prophet import Prophet
 import pickle
 
 ## Parse args
-parser = argparse.ArgumentParser("Prophet-Train")
+parser = argparse.ArgumentParser("prophet_train")
 parser.add_argument("--Training_Data", type=str, help="Training dataset")
 parser.add_argument("--Model_FileName", type=str, help="Name of the model file")
 parser.add_argument("--Model_Path", type=str, help="Path to store model")

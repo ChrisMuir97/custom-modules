@@ -4,7 +4,7 @@
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: prophet_prep
 version: 0.0.1
-display_name: Prophet-Prep
+display_name: prophet_prep
 type: CommandComponent
 is_deterministic: false
 tags:

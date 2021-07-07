@@ -12,7 +12,7 @@ import lightgbm as lgb
 import pickle
 
 ## Parse args
-parser = argparse.ArgumentParser("LGBM-R-Evaluate")
+parser = argparse.ArgumentParser("lgbm-r-evaluate")
 parser.add_argument("--Evaluation_Data", type=str, help="Evaluation dataset")
 parser.add_argument("--Lable_Col", type=str, help="Lable column in the evaluation dataset")
 parser.add_argument("--Model_Path", type=str, help="Path where contains model file")

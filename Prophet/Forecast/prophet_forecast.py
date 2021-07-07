@@ -13,7 +13,7 @@ from prophet import Prophet
 import pickle
 
 ## Parse args
-parser = argparse.ArgumentParser("Prophet-Forecast")
+parser = argparse.ArgumentParser("prophet_forecast")
 parser.add_argument("--Model_FileName", type=str, help="Name of the model file")
 parser.add_argument("--Model_Path", type=str, help="Path to store model")
 parser.add_argument("--Periods", type=int, help="Number of periods to forecast forwards")

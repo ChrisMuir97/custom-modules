@@ -4,7 +4,7 @@
 $schema: http://azureml/sdk-2-0/CommandComponent.json
 name: prophet_train
 version: 0.0.1
-display_name: Prophet-Train
+display_name: prophet_train
 type: CommandComponent
 is_deterministic: false
 tags:
